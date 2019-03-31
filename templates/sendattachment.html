@@ -1,11 +1,20 @@
-{% extends "leftMenu.html" %}
-{% block inner_block %}
+{% extends "homepage.html" %}
+{% block display_block %}
     <script src="/static/js/commonutilities.js"></script>
     <script src="/static/js/sendattachment.js"></script>
-    <h3>Content in Excel</h3>
-    <p id="excelContentDisplay"></p>
-    <div>
-        <input id="emailAddress" value="xiazhai2017@gmail.com"/>
-        <button id="btSendEmail">Send Email</button>
+
+    <div class="row">
+        <div class="col-lg-6 border-right" style="height:1000px">
+            <h3>Content in Excel</h3>
+            <p id="excelContentDisplay"></p>
+            <div>
+                <input id="emailAddress" value="xiazhai2017@gmail.com"/>
+                <button id="btSendEmail">Send Email</button>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <h3>Annotation</h3>
+        </div>
     </div>
+
 {% endblock %}

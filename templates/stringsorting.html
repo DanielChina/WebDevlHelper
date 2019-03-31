@@ -1,8 +1,15 @@
-{% extends "leftMenu.html" %}
-{% block inner_block %}
-    <h3>Before sorting</h3>
-    <p id="displayBeforeSorting"></p>
-    <h3>After sorting</h3>
-    <p id="displayAfterSorting"></p>
+{% extends "homepage.html" %}
+{% block display_block %}
     <script src="/static/js/stringsorting.js"></script>
+    <div class="row">
+        <div class="col-lg-6 border-right" style="height:1000px">
+            <h3>Before sorting</h3>
+                <p id="displayBeforeSorting"></p>
+            <h3>After sorting</h3>
+            <p id="displayAfterSorting"></p>
+        </div>
+        <div class="col-lg-5">
+            <h3>Annotation</h3>
+        </div>
+    </div>
 {% endblock %}

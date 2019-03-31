@@ -2,6 +2,10 @@ from flask import Flask,render_template,request,jsonify
 from commonutility import CommonUtility
 app = Flask(__name__)
 
+@app.route('/wordsanimation.html')
+def wordsAnimation():
+    return render_template('wordsanimation.html')
+
 
 @app.route('/stringsorting.html')
 @app.route('/')
@@ -16,10 +20,7 @@ def populateTable():
 def sendAttachment():
     return render_template('sendattachment.html')
 
-
-
 @app.route('/sendAttachmentContent',methods=['POST'])
-
 # add two excel sheets
 def sendAttachmentContent():
     requestsData=request.json
