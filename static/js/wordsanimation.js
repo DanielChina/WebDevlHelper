@@ -1,4 +1,6 @@
 $( document ).ready(function() {
-    let mainElement=$("body").find("main");
-    mainElement.css('background-color', '#a417f4');
+    let logo=$("#logo").find("path");
+    for(let i =0; i<15;i++){
+        console.log(logo[i].getTotalLength().toString()+',');
+    }
 });
