@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <script src="/static/js/library/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/library/popper.js"></script>
+    <script src="/static/js/library/tootip.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/library/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/library/w3.css" />
-    <script src="/static/js/library/jquery-3.3.1.min.js"></script>
     <script src="/static/js/library/bootstrap.min.js"></script>
     <title>WebDevlHelper</title>
 </head>
@@ -18,10 +21,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="">Program <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{ url_for('stringSorting') }}">Program <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Interview</a>
+        <a class="nav-link" href="{{ url_for('pythonQuestions') }}">Interview</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

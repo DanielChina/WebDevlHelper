@@ -1,0 +1,48 @@
+{% extends "program.html" %}
+{% block display_block %}
+    <script src="/static/js/program/commonutilities.js"></script>
+    <script src="/static/js/library/compiled.js"></script>
+    <script src="/static/js/program/projecttest.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/projecttest.css" />
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            <a href="#about">About</a>
+            <a href="#base">Base</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#custom">Custom</a>
+            <a href="#support">Support</a>
+            <a href="#tools">Tools</a>
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-primary" id="a">aaa</button>
+        <button class="btn" id="b">bbb</button>
+    </div>
+    <div class="border" style="border-color: black;width:100%;height:300px">
+        <div id="aDisplay"><h3 class="w3-center">Welcome A!</h3></div>
+        <div id="bDisplay"><h3 class="w3-center">Welcome B!</h3></div>
+    </div>
+    <script>
+        $("#a").on("click",response);
+        $("#b").on("click",response);
+        $("#bDisplay").hide();
+        function response(){
+            if($(this).attr("id")=="a" && $("#b").hasClass("btn-primary")) {
+                $("#b").removeClass("btn-primary");
+                $("#bDisplay").hide();
+                $("#aDisplay").show();
+            }
+            if($(this).attr("id")=="b" && $("#a").hasClass("btn-primary")) {
+                $("#a").removeClass("btn-primary");
+                $("#aDisplay").hide();
+                $("#bDisplay").show();
+            }
+            if(!($(this).hasClass("btn-primary")))
+                $(this).addClass("btn-primary");
+        }
+    </script>
+
+{% endblock %}

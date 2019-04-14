@@ -1,0 +1,24 @@
+{% extends "program.html" %}
+{% block display_block %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+    <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+    <script src='https://rawgit.com/peacepostman/wavify/master/wavify.js'></script>
+    <script src='https://rawgit.com/peacepostman/wavify/master/jquery.wavify.js'></script>
+    <script src="/static/js/program/flowanimation.js"></script>
+    <title>CodePen - Jquery Wavify</title>
+    <div class="btn-wrapper">
+        <a href="" class="btn" data-pause>Pause</a>
+        <a href="" class="btn" data-play>Play</a>
+        <a href="" class="btn" data-color>Random color</a>
+    </div>
+    <script>
+        window.console = window.console || function(t) {};
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+    <div style=" width:300px">
+        <svg width="300px" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave"><defs></defs><path id="feel-the-wave" d="" /></svg>
+    </div>
+{% endblock %}

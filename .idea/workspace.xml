@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35cfca3-fe0f-49c8-ae4c-25b4a83500e1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/flowanimation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/projecttest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/interview/pythonquestions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/library/compiled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/library/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/library/tootip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/program/flowanimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/program/projecttest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/program/wordsanimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/interview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/interview/pythonquestions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/program/flowanimation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/program/projecttest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/program/wordsanimation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/program.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/wordsanimation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/wordsanimation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/wordsanimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/wordsanimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wordsanimation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wordsanimation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/nems.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/commonutilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/commonutilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/populatetable.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/populatetable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sendattachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/sendattachment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/stringsorting.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/stringsorting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/wordsanimation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/populatetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/populatetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sendattachment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/sendattachment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/stringsorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/stringsorting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/wordsanimation.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,33 +41,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WebDevlHelper$WebDevlHelper.coverage" NAME="WebDevlHelper Coverage Results" MODIFIED="1554112135972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebDevlHelper$WebDevlHelper.coverage" NAME="WebDevlHelper Coverage Results" MODIFIED="1555220979235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="datatables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/library/datatables.js">
+      <file leaf-file-name="program.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/program.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-475">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projecttest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/program/projecttest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1031#1082#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-3.3.1.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/library/jquery-3.3.1.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="navBar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/navBar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/library/bootstrap.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pythonquestions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/interview/pythonquestions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/homepage.css">
+      <file leaf-file-name="projecttest.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/projecttest.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pythonquestions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/interview/pythonquestions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/program.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
@@ -49,57 +111,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordsanimation.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/wordsanimation.css">
+      <file leaf-file-name="interview.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/interview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="82" column="81" selection-start-line="82" selection-start-column="81" selection-end-line="82" selection-end-column="81" />
+            <state relative-caret-position="475">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="32" column="87" lean-forward="true" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordsanimation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/wordsanimation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stringsorting.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/stringsorting.js">
+      <file leaf-file-name="stringsorting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/program/stringsorting.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="32" />
+              <caret selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordsanimation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/wordsanimation.html">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="1400">
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nems.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/nems.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -109,9 +148,9 @@
       <list>
         <option value="Flask Main" />
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -128,14 +167,23 @@
       <find>400px</find>
       <find>2.5s</find>
       <find>500px</find>
+      <find>3.5</find>
+      <find>mdbDropSearch</find>
+      <find>projecttest.html</find>
+      <find>/projecttest.html</find>
+      <find>program</find>
+      <find>#b</find>
     </findStrings>
     <replaceStrings>
       <replace>40</replace>
       <replace>50</replace>
       <replace>76px</replace>
-      <replace>line-anim 3s</replace>
+      <replace />
       <replace>3s</replace>
       <replace>600px</replace>
+      <replace>3.0</replace>
+      <replace>/program/projecttest.html</replace>
+      <replace>#hideAnswers</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\Flask\WebDevlHelper\static\css\library</dir>
@@ -147,11 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/sideDirectory.html" />
-        <option value="$PROJECT_DIR$/templates/mainScreen.html" />
-        <option value="$PROJECT_DIR$/static/css/simpletable.css" />
-        <option value="$PROJECT_DIR$/static/js/sendemail.js" />
-        <option value="$PROJECT_DIR$/static/js/CommonUtilities.js" />
         <option value="$PROJECT_DIR$/static/js/commonutilities.js" />
         <option value="$PROJECT_DIR$/static/js/stringsorting.js" />
         <option value="$PROJECT_DIR$/static/js/sendattachment.js" />
@@ -179,16 +222,30 @@
         <option value="$PROJECT_DIR$/templates/sendattachment.html" />
         <option value="$PROJECT_DIR$/templates/cloudanimation.html" />
         <option value="$PROJECT_DIR$/static/js/cloudanimation.js" />
-        <option value="$PROJECT_DIR$/templates/homepage.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/static/js/populatetable.js" />
         <option value="$PROJECT_DIR$/img/nems.svg" />
         <option value="$PROJECT_DIR$/templates/populatetable.html" />
-        <option value="$PROJECT_DIR$/templates/navBar.html" />
         <option value="$PROJECT_DIR$/static/img/nems.svg" />
         <option value="$PROJECT_DIR$/static/js/wordsanimation.js" />
         <option value="$PROJECT_DIR$/templates/wordsanimation.html" />
         <option value="$PROJECT_DIR$/static/css/wordsanimation.css" />
+        <option value="$PROJECT_DIR$/static/css/projecttest.js" />
+        <option value="$PROJECT_DIR$/templates/flowanimation.html" />
+        <option value="$PROJECT_DIR$/static/css/flowanimation.css" />
+        <option value="$PROJECT_DIR$/static/js/flowanimation.js" />
+        <option value="$PROJECT_DIR$/static/js/library/tootip.js" />
+        <option value="$PROJECT_DIR$/static/js/library/popper.js" />
+        <option value="$PROJECT_DIR$/static/js/compiled.js" />
+        <option value="$PROJECT_DIR$/static/js/library/compiled.js" />
+        <option value="$PROJECT_DIR$/static/css/projecttest.css" />
+        <option value="$PROJECT_DIR$/static/js/projecttest.js" />
+        <option value="$PROJECT_DIR$/templates/projecttest.html" />
+        <option value="$PROJECT_DIR$/templates/navBar.html" />
+        <option value="$PROJECT_DIR$/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/templates/interview.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/interview/pythonquestions.html" />
+        <option value="$PROJECT_DIR$/static/js/interview/pythonquestions.js" />
       </list>
     </option>
   </component>
@@ -201,9 +258,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="353" />
-    <option name="y" value="125" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="69" />
+    <option name="y" value="50" />
     <option name="width" value="1271" />
     <option name="height" value="648" />
   </component>
@@ -238,7 +295,27 @@
               <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
@@ -252,6 +329,18 @@
               <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,21 +350,22 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JsonReader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask-restplus-server-example-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Flask\WebDevlHelper\static" />
-      <recent name="E:\Flask\WebDevlHelper\excel" />
-      <recent name="E:\Flask\WebDevlHelper\email" />
-      <recent name="E:\Flask\WebDevlHelper" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Flask\WebDevlHelper\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Flask\WebDevlHelper\static\js\program" />
+      <recent name="E:\Flask\WebDevlHelper\templates\interview" />
+      <recent name="E:\Flask\WebDevlHelper\templates" />
+      <recent name="E:\Flask\WebDevlHelper\templates\program" />
+      <recent name="E:\Flask\WebDevlHelper\static\js\library" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,15 +419,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3371522" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23567921" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22314675" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.396072" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43207857" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,56 +460,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/simpletable.css" />
-    <entry file="file://$PROJECT_DIR$/static/js/populatetable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/populatetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sideDirectory.html" />
-    <entry file="file://$PROJECT_DIR$/static/css/library/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/venv/Lib/site-packages/jinja2/compiler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="717" selection-start-line="717" selection-end-line="717" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainScreen.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/sendemail.js" />
-    <entry file="file://$USER_HOME$/venv/Lib/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/commonutilities.py" />
     <entry file="file://$PROJECT_DIR$/EmailDao.py" />
     <entry file="file://$PROJECT_DIR$/commonUtilities.py" />
     <entry file="file://$PROJECT_DIR$/email/emailDao.py" />
@@ -451,13 +491,6 @@
     <entry file="file://$PROJECT_DIR$/static/js/library/csi.js" />
     <entry file="file://$PROJECT_DIR$/static/js/sourceCode.js" />
     <entry file="file://$PROJECT_DIR$/templates/sourceCode.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/sendattachment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/Lib/site-packages/flask/templating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -493,60 +526,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/plus.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/simpletable.css" />
-    <entry file="file://$PROJECT_DIR$/templates/stringsorting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sendattachment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/templates/populatetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/commonutilities.js">
+    <entry file="file://$PROJECT_DIR$/static/js/program/commonutilities.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/populatetable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -554,62 +542,182 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/library/datatables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/library/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/nems.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/stringsorting.js">
+    <entry file="file://$PROJECT_DIR$/static/js/program/stringsorting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/homepage.html">
+    <entry file="file://$PROJECT_DIR$/static/img/nems.svg" />
+    <entry file="file://$PROJECT_DIR$/static/css/wordsanimation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="32" column="87" lean-forward="true" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
+        <state relative-caret-position="682">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/wordsanimation.js">
+    <entry file="file://$PROJECT_DIR$/static/js/program/flowanimation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        <state relative-caret-position="108">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/wordsanimation.html">
+    <entry file="file://$PROJECT_DIR$/static/css/flowanimation.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/sendattachment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/library/tootip.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/library/popper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/wordsanimation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/populatetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/library/compiled.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/populatetable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/sendattachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/projecttest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/flowanimation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/wordsanimation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/stringsorting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/wordsanimation.css">
+    <entry file="file://$PROJECT_DIR$/templates/navBar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="82" column="81" selection-start-line="82" selection-start-column="81" selection-end-line="82" selection-end-column="81" />
+        <state relative-caret-position="600">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/interview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/program.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/projecttest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/projecttest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#1031#1082#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/interview/pythonquestions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/interview/pythonquestions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>

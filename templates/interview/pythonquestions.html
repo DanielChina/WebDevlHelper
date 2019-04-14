@@ -1,0 +1,20 @@
+{% extends "interview.html" %}
+{% block display_block %}
+    <script src="/static/js/interview/pythonquestions.js"></script>
+    <div class="row">
+        <div class="col-lg-6 border-right" style="height:1000px">
+            <h3> Questions</h3>
+            <p>1) The difference between List and Tuple</p>
+        </div>
+        <div class="col-lg-5" >
+            <div>
+                <button class="btn btn-primary" id="showAnswers">Show Answers</button>
+                <button class="btn" id="hideAnswers">Hide Answers</button>
+            </div>
+            <div id="answersDisplay">
+                <h3>Answers</h3>
+                <p>1)List: mutable, Tuple:immutable; List: brackets; Tuple:parentheses</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

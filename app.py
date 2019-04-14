@@ -1,26 +1,35 @@
-from flask import Flask,render_template,request,jsonify
+from flask import Flask,render_template,request,jsonify,redirect,url_for
 from commonutility import CommonUtility
 app = Flask(__name__)
 
-@app.route('/wordsanimation.html')
+@app.route('/program/projecttest.html')
+def projectTest():
+    return render_template('program/projecttest.html')
+
+@app.route('/program/wordsanimation.html')
 def wordsAnimation():
-    return render_template('wordsanimation.html')
+    return render_template('program/wordsanimation.html')
 
+@app.route('/program/flowanimation.html')
+def flowAnimation():
+    return render_template('program/flowanimation.html')
 
-@app.route('/stringsorting.html')
 @app.route('/')
+@app.route('/program')
+@app.route('/program/stringsorting.html')
 def stringSorting():
-    return render_template('stringsorting.html')
+    return render_template('program/stringsorting.html')
 
-@app.route('/populatetable.html')
+@app.route('/program/populatetable.html')
 def populateTable():
-    return render_template('populatetable.html')
+    return render_template('program/populatetable.html')
 
-@app.route('/sendattachment.html')
+@app.route('/program/sendattachment.html')
 def sendAttachment():
-    return render_template('sendattachment.html')
+    return render_template('program/sendattachment.html')
 
-@app.route('/sendAttachmentContent',methods=['POST'])
+@app.route('/program/sendAttachmentContent',methods=['POST'])
+@app.route('/sendAttachmentContent.html')
 # add two excel sheets
 def sendAttachmentContent():
     requestsData=request.json
@@ -42,5 +51,12 @@ def sendAttachmentContent():
                                   None,bodyText,excelFileName,attachmentName)
     response={'success':True}
     return jsonify(response)
+
+@app.route('/interview')
+@app.route('/interview/pythonquestions.html')
+def pythonQuestions():
+    return render_template('/interview/pythonquestions.html')
+
+
 if __name__ == '__main__':
     app.run()
