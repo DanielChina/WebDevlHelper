@@ -1,0 +1,1 @@
+<p>1) List: mutable, brackets, tuple: immutable, parentheses </p>

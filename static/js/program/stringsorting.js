@@ -23,4 +23,9 @@ $( document ).ready(function() {
         str='';
     students.forEach(stu=>str+=JSON.stringify(stu)+',<br>');
     $("#displayAfterSorting").html(str);
+    // let str1='abcde';
+    // let str2=str1;
+    // let arr=str1.split('c');
+    // str1=arr[0]+'-'+arr[1];
+    // $("#displayAfterSorting").html(str1+"; "+str2);
 });

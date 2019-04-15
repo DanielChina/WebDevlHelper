@@ -27,7 +27,7 @@ $( document ).ready(function() {
                  emailAddress:emailAddress,
                  students:students
              };
-             CommonUtilities.makeHttpRequest('/sendAttachmentContent',JSON.stringify(data),'POST').then(res=>{
+             CommonUtilities.makeHttpRequest('/program/sendattachment.html/sendAttachmentContent',JSON.stringify(data),'POST').then(res=>{
                 if(res.success)
                     alert("Succeed to send attachment!");
                 else

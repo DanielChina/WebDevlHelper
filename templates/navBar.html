@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <script src="/static/js/navBar.js"></script>
     <script src="/static/js/library/jquery-3.3.1.min.js"></script>
     <script src="/static/js/library/popper.js"></script>
     <script src="/static/js/library/tootip.js"></script>
@@ -19,12 +19,12 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="{{ url_for('stringSorting') }}">Program <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav">
+      <li class="nav-item active" id="programNav">
+        <a class="nav-link" href="{{ url_for('stringSorting') }}">Program </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ url_for('pythonQuestions') }}">Interview</a>
+      <li class="nav-item active" id="interviewNav">
+        <a class="nav-link" href="{{ url_for('pythonQuestions') }}">Interview </a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -33,7 +33,6 @@
     </form>
   </div>
 </nav>
-
 {% block content %}
 {% endblock %}
 </body>

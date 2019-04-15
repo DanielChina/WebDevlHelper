@@ -2,36 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35cfca3-fe0f-49c8-ae4c-25b4a83500e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/flowanimation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/projecttest.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/interview/pythonquestions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/library/compiled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/library/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/library/tootip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/program/flowanimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/program/projecttest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/program/wordsanimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/interview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/interview/pythonquestions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/program/flowanimation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/program/projecttest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/program/wordsanimation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/program.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/wordsanimation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/wordsanimation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/nems.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/commonutilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/commonutilities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/populatetable.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/populatetable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/sendattachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/sendattachment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/stringsorting.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/stringsorting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/wordsanimation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonutility.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonutility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/interview/pythonquestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/interview/pythonquestions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/program/commonutilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/commonutilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/program/sendattachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/sendattachment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/program/stringsorting.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/program/stringsorting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/interview/pythonquestions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/interview/pythonquestions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navBar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/populatetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/populatetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sendattachment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/sendattachment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stringsorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/stringsorting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wordsanimation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/program/projecttest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/projecttest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/program/sendattachment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/program/sendattachment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,81 +23,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WebDevlHelper$WebDevlHelper.coverage" NAME="WebDevlHelper Coverage Results" MODIFIED="1555220979235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebDevlHelper$WebDevlHelper.coverage" NAME="WebDevlHelper Coverage Results" MODIFIED="1555319149257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="program.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/program.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projecttest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/program/projecttest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="e#1031#1082#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navBar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/navBar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pythonquestions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/interview/pythonquestions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projecttest.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/projecttest.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pythonquestions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/interview/pythonquestions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="program.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/program.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interview.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/interview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="142">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -123,8 +39,56 @@
       <file leaf-file-name="stringsorting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/program/stringsorting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="15" />
+            <state relative-caret-position="325">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stringsorting.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/program/stringsorting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projecttest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/program/projecttest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projecttest.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/projecttest.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1250">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commonutility.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonutility.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pythonquestions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/interview/pythonquestions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -132,11 +96,29 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state relative-caret-position="149">
+              <caret line="76" column="54" lean-forward="true" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projecttest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/program/projecttest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/program.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -173,12 +155,13 @@
       <find>/projecttest.html</find>
       <find>program</find>
       <find>#b</find>
+      <find>sendAttachmentContent</find>
     </findStrings>
     <replaceStrings>
       <replace>40</replace>
       <replace>50</replace>
       <replace>76px</replace>
-      <replace />
+      <replace>line-anim 3s</replace>
       <replace>3s</replace>
       <replace>600px</replace>
       <replace>3.0</replace>
@@ -195,11 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/js/commonutilities.js" />
-        <option value="$PROJECT_DIR$/static/js/stringsorting.js" />
-        <option value="$PROJECT_DIR$/static/js/sendattachment.js" />
-        <option value="$PROJECT_DIR$/EmailDao.py" />
-        <option value="$PROJECT_DIR$/templates/commonutilities.py" />
         <option value="$PROJECT_DIR$/static/emailModule.py" />
         <option value="$PROJECT_DIR$/emailModule.py" />
         <option value="$PROJECT_DIR$/commonUtilities.py" />
@@ -208,7 +186,6 @@
         <option value="$PROJECT_DIR$/excel/excelDao.py" />
         <option value="$PROJECT_DIR$/email/emailDao.py" />
         <option value="$PROJECT_DIR$/email/emailModule.py" />
-        <option value="$PROJECT_DIR$/commonutility.py" />
         <option value="$PROJECT_DIR$/templates/sourcecodewindow.html" />
         <option value="$PROJECT_DIR$/static/js/library/csi.js" />
         <option value="$PROJECT_DIR$/static/js/sourceCode.js" />
@@ -240,11 +217,17 @@
         <option value="$PROJECT_DIR$/static/css/projecttest.css" />
         <option value="$PROJECT_DIR$/static/js/projecttest.js" />
         <option value="$PROJECT_DIR$/templates/projecttest.html" />
-        <option value="$PROJECT_DIR$/templates/navBar.html" />
         <option value="$PROJECT_DIR$/templates/homepage.html" />
         <option value="$PROJECT_DIR$/templates/interview.html" />
-        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/js/navBar.js" />
+        <option value="$PROJECT_DIR$/templates/navBar.html" />
+        <option value="$PROJECT_DIR$/static/js/commonutilities.js" />
+        <option value="$PROJECT_DIR$/static/js/program/sendattachment.js" />
+        <option value="$PROJECT_DIR$/pythonRecord.txt" />
+        <option value="$PROJECT_DIR$/static/js/program/stringsorting.js" />
+        <option value="$PROJECT_DIR$/commonutility.py" />
         <option value="$PROJECT_DIR$/templates/interview/pythonquestions.html" />
+        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/static/js/interview/pythonquestions.js" />
       </list>
     </option>
@@ -258,7 +241,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="69" />
     <option name="y" value="50" />
     <option name="width" value="1271" />
@@ -322,7 +305,7 @@
               <item name="WebDevlHelper" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebDevlHelper" type="b2602c69:ProjectViewProjectNode" />
@@ -357,15 +340,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Flask\WebDevlHelper\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Flask\WebDevlHelper\static\js" />
       <recent name="E:\Flask\WebDevlHelper\static\js\program" />
       <recent name="E:\Flask\WebDevlHelper\templates\interview" />
       <recent name="E:\Flask\WebDevlHelper\templates" />
       <recent name="E:\Flask\WebDevlHelper\templates\program" />
-      <recent name="E:\Flask\WebDevlHelper\static\js\library" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Flask\WebDevlHelper\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,15 +402,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23567921" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30278233" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22314675" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43207857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23240589" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -445,7 +428,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.FlaskServer">
@@ -460,8 +443,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EmailDao.py" />
-    <entry file="file://$PROJECT_DIR$/commonUtilities.py" />
     <entry file="file://$PROJECT_DIR$/email/emailDao.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/email/mime/text.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,13 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8525">
           <caret line="343" column="8" selection-start-line="343" selection-start-column="8" selection-end-line="343" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonutility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -531,13 +505,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/simpletable.css" />
     <entry file="file://$PROJECT_DIR$/static/img/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/js/program/commonutilities.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/library/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -546,13 +513,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/library/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/program/stringsorting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/img/nems.svg" />
     <entry file="file://$PROJECT_DIR$/static/css/wordsanimation.css">
@@ -571,13 +531,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/flowanimation.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/program/sendattachment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/library/tootip.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -600,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/program/populatetable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/library/compiled.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -624,48 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/program/projecttest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/program/flowanimation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/program/wordsanimation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/program/stringsorting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -676,6 +584,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/navBar.js" />
+    <entry file="file://$PROJECT_DIR$/templates/program/wordsanimation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/sendattachment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="29" column="112" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/commonutilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonRecord.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program/populatetable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/program.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -683,41 +630,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/program.html">
+    <entry file="file://$PROJECT_DIR$/static/css/projecttest.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="1250">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/projecttest.css">
+    <entry file="file://$PROJECT_DIR$/templates/program/stringsorting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="325">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/program/projecttest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="25">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/stringsorting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/program.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonutility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
-            <element signature="e#1031#1082#0#HTML" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/interview/pythonquestions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="142">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/program/projecttest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="76" column="54" lean-forward="true" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/interview/pythonquestions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="325">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
         </state>
       </provider>
     </entry>

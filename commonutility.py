@@ -44,3 +44,22 @@ class CommonUtility:
             for j,row in enumerate(contents[i]):
                 worksheet.write_row(j+1, 0, row, format)
         workbook.close()
+
+    @staticmethod
+    def readTxtFile(fileName):
+        try:
+            fp=open(fileName,'r')
+        except:
+            fp=open(fileName,'w+')
+        content=fp.read()
+        return content
+
+    @staticmethod
+    def writeTxtFile(fileName,content):
+        try:
+            fp=open(fileName,'a')
+            fp.write(content)
+            fp.close()
+        except:
+            return False
+        return True

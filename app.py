@@ -1,5 +1,8 @@
 from flask import Flask,render_template,request,jsonify,redirect,url_for
 from commonutility import CommonUtility
+import os
+import xlsxwriter
+
 app = Flask(__name__)
 
 @app.route('/program/projecttest.html')
@@ -28,8 +31,7 @@ def populateTable():
 def sendAttachment():
     return render_template('program/sendattachment.html')
 
-@app.route('/program/sendAttachmentContent',methods=['POST'])
-@app.route('/sendAttachmentContent.html')
+@app.route('/program/sendattachment.html/sendAttachmentContent',methods=['POST'])
 # add two excel sheets
 def sendAttachmentContent():
     requestsData=request.json
@@ -46,7 +48,7 @@ def sendAttachmentContent():
         contents.append(content)
     CommonUtility.createAndWriteToExcel(excelFileName,sheetNames,[heads,heads],[contents,contents],'black','blue')
     bodyText='Please Check the attachment!'
-    attachmentName='testAttachment'
+    attachmentName='testAttachment.xlsx'
     CommonUtility.setEmailandSend('Email Test','xiazhai2017@outlook.com',requestsData['emailAddress'],
                                   None,bodyText,excelFileName,attachmentName)
     response={'success':True}
@@ -57,6 +59,23 @@ def sendAttachmentContent():
 def pythonQuestions():
     return render_template('/interview/pythonquestions.html')
 
+@app.route('/interview/pythonquestions.html/getContent',methods=['POST'])
+def getContent():
+    fileName='pythonQuestions.txt'
+    questions=CommonUtility.readTxtFile(fileName)
+    fileName='pythonAnswers.txt'
+    answers=CommonUtility.readTxtFile(fileName)
+    return jsonify({'success':True, 'data':{'questions':questions,'answers':answers}})
+
+@app.route('/interview/pythonquestions.html/saveContent',methods=['POST'])
+def saveContent():
+    data=request.json
+    if(data['type']=='questions'):
+        fileName = 'pythonQuestions.txt'
+    else:
+        fileName = 'pythonAnswers.txt'
+    CommonUtility.writeTxtFile(fileName, data['data'])
+    return jsonify({'success': True})
 
 if __name__ == '__main__':
     app.run()
