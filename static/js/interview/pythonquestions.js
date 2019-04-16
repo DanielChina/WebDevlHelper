@@ -6,21 +6,48 @@ $(document).ready(function(){
     $("#answersDisplay").show();
     $("#saveQuestion").click({type:'questions'},saveContentRequest);
     $("#saveAnswer").click({type:'answers'},saveContentRequest);
+    $("#deleteLastQuestion").click({type:'questions'},deleteRequest);
+    $("#deleteLastAnswer").click({type:'answers'},deleteRequest);
+    function deleteRequest(event){
+        let data='',id;
+        if(event.data.type=="questions") {
+            id= "#questionsDisplay";
+        }
+        else {
+            id="#answersDisplay";
+        }
+        let elements=$(id).find('p');
+        if(elements.length>0){
+            data='<p>'+elements[elements.length-1].outerText+'</p>';
+            elements[elements.length-1].remove();
+        }
+        CommonUtilities.makeHttpRequest("/interview/pythonquestions.html/deleteContent",
+            JSON.stringify({type:event.data.type,data:data}),'POST').then(res=>alert(res.success));
+    }
     function saveContentRequest(event){
-        let data=''
+        let data='';
         if(event.data.type=="questions") {
             data = $("#inputQuestion").val();
+            if(data.length==0)
+                return;
             data='<p>'+data+'</p>';
             $("#questionsDisplay").append(data)
         }
         else {
             data = $("#inputAnswer").val();
+            if(data.length==0)
+                return;
             data = '<p>'+data+'</p>';
             $("#answersDisplay").append(data)
         }
-        CommonUtilities.makeHttpRequest("/interview/pythonquestions.html/saveContent",JSON.stringify({type:event.data.type,data:data}),'POST').then(
-                res=>{if(res.success) alert("Succeeded to save!");
-                else alert("Failed to save!");}
+        CommonUtilities.makeHttpRequest("/interview/pythonquestions.html/saveContent",
+            JSON.stringify({type:event.data.type,data:data}),'POST').then(
+                res=>{
+                    if(res.success){
+                        alert("Succeeded to save!");
+                        $("#inputQuestion").val('')}
+                    else
+                        alert("Failed to save!");}
         );
     }
     function getRecord() {

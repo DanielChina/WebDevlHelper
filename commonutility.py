@@ -52,6 +52,7 @@ class CommonUtility:
         except:
             fp=open(fileName,'w+')
         content=fp.read()
+        fp.close()
         return content
 
     @staticmethod
@@ -59,6 +60,21 @@ class CommonUtility:
         try:
             fp=open(fileName,'a')
             fp.write(content)
+            fp.close()
+        except:
+            return False
+        return True
+
+    @staticmethod
+    def deleteTxtfile(fileName,content):
+        length=len(content)
+        try:
+            fp=open(fileName,'r')
+            allContents=fp.read()
+            fp.close()
+            fp = open(fileName, 'w+')
+            allLength=len(allContents)
+            fp.write(allContents[0:(allLength-length)])
             fp.close()
         except:
             return False

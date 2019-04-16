@@ -1,4 +1,1 @@
-<p>1) List and tuple difference</p>
-<p>2) Immutable and mutiable difference</p>
-<p>3) Object-oriented design principles</p>
-<p>4) Functional programming</p>
+<p>1) List and tuple difference</p><p>2) Functional programming</p><p>3) Object-oriented programming</p>

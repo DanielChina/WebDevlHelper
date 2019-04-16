@@ -74,8 +74,20 @@ def saveContent():
         fileName = 'pythonQuestions.txt'
     else:
         fileName = 'pythonAnswers.txt'
-    CommonUtility.writeTxtFile(fileName, data['data'])
-    return jsonify({'success': True})
+    result=CommonUtility.writeTxtFile(fileName, data['data'])
+    return jsonify({'success': result})
+
+
+@app.route('/interview/pythonquestions.html/deleteContent',methods=['POST'])
+def deleteContent():
+    data=request.json
+    if (data['type'] == 'questions'):
+        fileName = 'pythonQuestions.txt'
+    else:
+        fileName = 'pythonAnswers.txt'
+    result=CommonUtility.deleteTxtfile(fileName,data['data'])
+    return jsonify({'success':result})
+
 
 if __name__ == '__main__':
     app.run()
