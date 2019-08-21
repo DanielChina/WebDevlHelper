@@ -4,6 +4,7 @@
     <script src="/static/js/library/compiled.js"></script>
     <script src="/static/js/program/projecttest.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/projecttest.css" />
+    <h4>Dropdown with searching</h4>
     <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
         <div id="myDropdown" class="dropdown-content">
@@ -17,6 +18,7 @@
             <a href="#tools">Tools</a>
         </div>
     </div>
+    <h4>Function Switch</h4>
     <div>
         <button class="btn btn-primary" id="a">aaa</button>
         <button class="btn" id="b">bbb</button>
@@ -24,6 +26,24 @@
     <div class="border" style="border-color: black;width:100%;height:300px">
         <div id="aDisplay"><h3 class="w3-center">Welcome A!</h3></div>
         <div id="bDisplay"><h3 class="w3-center">Welcome B!</h3></div>
+    </div>
+    <h4>Css Flexbox</h4>
+    <div style="display:flex;justify-content: center;">
+        <div style="background-color:lightblue;width:33%;height:100px;transform: translateY(50%)">1</div>
+        <div style="background-color:lightyellow;width:33%;height:200px;">2</div>
+        <div style="background-color:lightgreen;width:33%;height:100px;transform: translateY(50%)">3</div>
+    </div>
+    <h4>Css static relative absolute fixed and sticky</h4>
+    <h5>Relative and absolute</h5>
+    <div  style="position:relative;background-color:lightcoral;width:100px;height:100px;left:10px;">
+        <p style="background-color:lightblue;width:50px;height:50px;"></p>
+        <p style="background-color:lightgreen;position:absolute; top:0;left:0">Test text</p>
+    </div>
+    <h5>Sticky</h5>
+    <div style="position:sticky;bottom:0;">
+        <div style="position:relative;left:200px;">
+            <div style="width:50px;height:50px;background-color:lightblue;"></div>
+        </div>
     </div>
     <script>
         $("#a").on("click",response);
@@ -43,6 +63,8 @@
             if(!($(this).hasClass("btn-primary")))
                 $(this).addClass("btn-primary");
         }
+        var a=new Set([1,2,2,3,3]);
+        console.log("set print out:",JSON.stringify(a));
     </script>
 
 {% endblock %}
