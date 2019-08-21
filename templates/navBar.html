@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/library/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/library/w3.css" />
     <script src="/static/js/library/bootstrap.min.js"></script>
+    <script src="/static/js/library/bootbox.js"></script>
     <title>WebDevlHelper</title>
 </head>
 <body>
@@ -18,20 +19,28 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item active" id="programNav">
-        <a class="nav-link" href="{{ url_for('stringSorting') }}">Program </a>
-      </li>
-      <li class="nav-item active" id="interviewNav">
-        <a class="nav-link" href="{{ url_for('pythonQuestions') }}">Interview </a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav"  style="width:30%">
+            <li class="nav-item active" id="programNav">
+                <a class="nav-link" href="{{ url_for('stringSorting') }}">Program </a>
+            </li>
+            <li class="nav-item active" id="interviewNav">
+                <a class="nav-link" href="{{ url_for('pythonQuestions') }}">Interview </a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0"  style="width:55%">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav" style="margin-right: 0"  style="width:15%">
+            <li class="nav-item active" id="signOn" >
+                <a class="nav-link" href="{{ url_for('signOn') }}">Sign On </a>
+            </li>
+            <li class="nav-item active" id="signIn">
+                <a class="nav-link" href="{{ url_for('signIn') }}">Sign In </a>
+            </li>
+        </ul>
+    </div>
 </nav>
 {% block content %}
 {% endblock %}
