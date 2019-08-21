@@ -1,0 +1,16 @@
+{% extends "program.html" %}
+{% block display_block %}
+    <script src="/static/js/commonutilities.js"></script>
+    <script src="/static/js/program/functionalprogram.js"></script>
+<div>
+    <input id='inputId1'>
+    <button id="btIdRequest1">First Request</button>
+    <h3>First Request Display:</h3>
+    <p id="pIdDisplay1"></p>
+
+    <input id='inputId2'>
+    <button id="btIdRequest2">Second Request</button>
+    <h3>Second Request Display</h3>
+    <p id="pIdDisplay2"></p>
+</div>
+{% endblock %}
