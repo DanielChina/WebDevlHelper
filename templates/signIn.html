@@ -1,0 +1,32 @@
+{% extends "navBar.html" %}
+{% block content %}
+    <head>
+    </head>
+    <div class="container-fluid">
+        <div class="modal-dialog" role="document" style="margin-top: 100px">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">{{ title }}</h5>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <label for="username">User Name</label>
+                    </div>
+                    <div>
+                        <input name=="username" placeholder="aaa">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                    </div>
+                    <div>
+                        <input name="password" placeholder="123456">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/signIn.js"></script>
+{% endblock %}
