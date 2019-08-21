@@ -1,7 +1,9 @@
-from flask import Flask,render_template,request,jsonify,redirect,url_for
-from commonutility import CommonUtility
+
 import os
 import xlsxwriter
+from flask import Flask,render_template,request,jsonify
+from commonutility import CommonUtility
+
 
 app = Flask(__name__)
 
@@ -88,6 +90,30 @@ def deleteContent():
     result=CommonUtility.deleteTxtfile(fileName,data['data'])
     return jsonify({'success':result})
 
+@app.route('/signIn',methods=['GET','POST'])
+def signIn():
+    return render_template('signIn.html',title='Sign In')
+
+#has been coded
+@app.route('/signOn',methods=['GET'])
+def signOn():
+    return render_template('signOn.html',title='Sign On')
+
+
+
+@app.route('/program/functionalprogram.html')
+def functionalProgram():
+    return render_template('program/functionalprogram.html')
+
+
+@app.route('/program/functionalprogram.html/request',methods=['GET','POST'])
+def requestTest():
+    data=request.json
+    return jsonify({'success':True, 'data':data})
 
 if __name__ == '__main__':
     app.run()
+
+
+
+
